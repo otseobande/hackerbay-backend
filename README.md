@@ -2,6 +2,8 @@
 
 ## Hackerbay Backend Challenge
 
+#### API documentation
+All endpoints are documented using postman. Checkout  [published documentation.](https://documenter.getpostman.com/view/4534067/RzfasXYR)
 
 #### Project management
-This project is managed with Pivotal Tracker. Here's a link to the story board: [PT board](https://www.pivotaltracker.com/n/projects/2228010)
+This project is managed with Pivotal Tracker. Here's a link to the story board: [PT board](https://www.pivotaltracker.com/n/projects/2228010).
