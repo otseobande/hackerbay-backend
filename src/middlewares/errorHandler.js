@@ -4,7 +4,7 @@
  * @param {Object} error
  * @param {Object} request
  * @param {Object} response
- * @param {Object} next
+ * @param {Function} next
  *
  * @returns {json}
  */
@@ -16,6 +16,11 @@ const errorHandler = (error, request, response, next) => { // eslint-disable-lin
       message,
     });
   }
+
+  return response.status(error.status || 500).json({
+    status: 'error',
+    message: error.message,
+  });
 };
 
 export default errorHandler;
