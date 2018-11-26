@@ -1,0 +1,26 @@
+{
+  "name": "hackerbay-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otseobande/hackerbay-backend.git"
+  },
+  "author": "Otse Obande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otseobande/hackerbay-backend/issues"
+  },
+  "homepage": "https://github.com/otseobande/hackerbay-backend#readme"
+}
