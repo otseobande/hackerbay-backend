@@ -8,6 +8,18 @@ const validateLogin = validate({
   },
 });
 
+const validateImageUrl = validate({
+  body: {
+    imageUrl: Joi.string().uri({
+      scheme: [
+        'http',
+        'https',
+      ],
+    }).required(),
+  },
+});
+
 export default {
   validateLogin,
+  validateImageUrl,
 };
