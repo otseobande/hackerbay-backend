@@ -19,7 +19,19 @@ const validateImageUrl = validate({
   },
 });
 
+const validatePatch = validate({
+  body: {
+    document: Joi.object().required(),
+    patch: Joi.object().keys({
+      op: Joi.string().required(),
+      path: Joi.string().required(),
+      value: Joi.any(),
+    }).required(),
+  },
+});
+
 export default {
   validateLogin,
   validateImageUrl,
+  validatePatch,
 };

@@ -75,5 +75,5 @@ describe('Thumbnail routes', () => {
 
         done();
       });
-  });
+  }).timeout(100000);
 });
