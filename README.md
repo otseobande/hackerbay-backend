@@ -20,10 +20,23 @@
 
 To test the application simply run: `$ npm run test`
 
+#### Docker
+Docker hub repo: [Link](https://hub.docker.com/r/otseobande/hackerbay-backend/)
+
+To use the application's docker image. Follow the following steps:
+
+- Download and install docker
+- Login using: `$ docker login`
+- Pull the application image: `$ docker pull otseobande/hackerbay-backend`
+- Run the image in container: `$ docker run -p 8000:8000 otseobande/hackerbay-backend:latest`
+- The application should be accessible via `localhost:8000`
+
+And you're good to go!
+
 
 #### API documentation
 
-All endpoints are documented using postman. Checkout  [published documentation.](https://documenter.getpostman.com/view/4534067/RzfasXYR)
+All endpoints are documented using postman. Checkout the [published documentation.](https://documenter.getpostman.com/view/4534067/RzfasXYR)
 
 #### Project management
 
